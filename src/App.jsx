@@ -19,11 +19,11 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="container bg-amber-400 m-auto ">
       <p>Microphone: {listening ? "on" : "off"}</p>
       <button
         onClick={SpeechRecognition.startListening}
-        className="block border-2 px-1"
+        className="block border-2 px-2 bg-sb-500"
       >
         Start
       </button>
