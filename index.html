@@ -24,5 +24,15 @@
       type="module"
       src="/src/main.jsx"
     ></script>
+    <script>
+      navigator.mediaDevices
+        .getUserMedia({ audio: true })
+        .then(function (stream) {
+          console.log("마이크 권한이 허용되었습니다.");
+        })
+        .catch(function (err) {
+          console.log("마이크 권한이 거부되었습니다.", err);
+        });
+    </script>
   </body>
 </html>
