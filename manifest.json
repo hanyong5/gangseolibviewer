@@ -1,0 +1,14 @@
+{
+  "short_name": "바로가기 이름",
+  "name": "바로가기 이름",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "16x16",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape"
+}
